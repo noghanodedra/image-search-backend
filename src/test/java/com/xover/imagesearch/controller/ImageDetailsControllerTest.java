@@ -50,7 +50,7 @@ public class ImageDetailsControllerTest extends BaseTest {
                 .param("description", "john")
                 .param("fileType", "txt" )
                 .contentType(MediaType.APPLICATION_JSON_VALUE))
-                .andExpect(status().isNotFound())
+                .andExpect(status().isNoContent())
                 .andExpect(result -> assertTrue(result.getResolvedException() instanceof RecordsNotFoundException));
     }
 }
