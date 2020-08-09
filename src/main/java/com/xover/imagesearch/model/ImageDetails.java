@@ -17,7 +17,7 @@ import java.time.Instant;
 @Setter
 @NoArgsConstructor
 @Entity
-@Table(name = "image_details3")
+@Table(name = "image_details")
 @EntityListeners(AuditingEntityListener.class)
 public class ImageDetails implements Serializable {
 

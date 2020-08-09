@@ -9,7 +9,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 @Getter
 @Setter
 @NoArgsConstructor
-@Document(indexName = "image_details", createIndex = false)
+@Document(indexName = "image_details", createIndex = true)
 public class ImageDetailsDocument {
     @Id
     private long id;
