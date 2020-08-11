@@ -24,7 +24,7 @@ import java.util.Optional;
 @Api(produces = MediaType.APPLICATION_JSON_VALUE, tags = "Image Details")
 public class ImageDetailsController {
 
-    public static final String ENDPOINT = "/api/v1/images";
+    public static final String ENDPOINT = "/api/v1/images/details";
 
     private static final String API_PARAM_DESCRIPTION = "DESCRIPTION";
     private static final String API_PARAM_FILE_TYPE = "FILE TYPE";

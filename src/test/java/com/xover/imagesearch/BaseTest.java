@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class BaseTest {
-    protected final static String baseURL = "/api/v1/images";
+    protected final static String baseURL = "/api/v1/images/details";
 
     @Autowired
     ObjectMapper objectMapper;
